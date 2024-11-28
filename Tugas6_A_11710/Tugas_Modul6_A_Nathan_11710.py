@@ -8,7 +8,7 @@ import time
 import base64
 
 # Load the pre-trained model
-model = load_model (r'Tugas6_A_11710/model_googlenet.h5')  # Update with your model path
+model = load_model (r'model_mobilenet.h5')  # Update with your model path
 class_names = ['Matang', 'Mentah']
 
 # Function to preprocess and classify image
